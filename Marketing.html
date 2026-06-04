@@ -9,6 +9,7 @@
 body{
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     margin:0;
+    padding:0;
     background:#faf7f2;
     color:#1c1c1e;
 }
@@ -23,18 +24,18 @@ header{
 header h1{
     font-size:44px;
     margin-bottom:10px;
+    letter-spacing:1px;
 }
 
 header p{
     font-size:18px;
-    color:#ffffff;
-    opacity:1;
+    opacity:0.95;
 }
 
 .badge{
     display:inline-block;
-    margin-top:12px;
-    padding:6px 12px;
+    margin-top:14px;
+    padding:6px 14px;
     border-radius:20px;
     background:rgba(255,255,255,0.15);
     font-size:13px;
@@ -46,6 +47,17 @@ section{
     padding:0 20px;
 }
 
+h2{
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+p{
+    font-size:16px;
+    line-height:1.7;
+    color:#2c2c2e;
+}
+
 .feature{
     background:white;
     padding:22px;
@@ -54,10 +66,19 @@ section{
     box-shadow:0 6px 18px rgba(0,0,0,0.08);
     display:flex;
     gap:14px;
+    align-items:flex-start;
 }
 
 .icon{
-    font-size:26px;
+    font-size:28px;
+    line-height:1;
+    margin-top:2px;
+}
+
+.feature strong{
+    display:block;
+    font-size:17px;
+    margin-bottom:4px;
 }
 
 .cta{
@@ -72,6 +93,8 @@ section{
     color:white;
     border-radius:30px;
     text-decoration:none;
+    font-size:16px;
+    margin-top:20px;
     font-weight:600;
 }
 </style>
@@ -86,11 +109,85 @@ section{
 </header>
 
 <section>
-<h2>A ritual for storytelling</h2>
-<p>
-A creative storytelling app for children aged 6–8 where every story begins with a shake.
-</p>
+    <h2>A ritual for storytelling</h2>
+    <p>
+        A creative storytelling app for children aged 6–8. Every story begins with a shake:
+        a moment of chance that becomes imagination.
+    </p>
 </section>
+
+<section>
+    <h2>How it works</h2>
+
+    <div class="feature">
+        <div class="icon">👑</div>
+        <div>
+            <strong>Character</strong>
+            A hero emerges from the deck — symbolic, unexpected, inevitable.
+        </div>
+    </div>
+
+    <div class="feature">
+        <div class="icon">❤️</div>
+        <div>
+            <strong>Emotion</strong>
+            Every story carries a feeling that shapes its direction and meaning.
+        </div>
+    </div>
+
+    <div class="feature">
+        <div class="icon">⚡</div>
+        <div>
+            <strong>Obstacle</strong>
+            A challenge appears, pushing the story into motion.
+        </div>
+    </div>
+
+    <div class="feature">
+        <div class="icon">🔮</div>
+        <div>
+            <strong>The Ritual</strong>
+            Shake the device. The card is chosen by fate. It cannot be changed.
+        </div>
+    </div>
+
+    <div class="feature">
+        <div class="icon">📖</div>
+        <div>
+            <strong>Seal Your Legend</strong>
+            Transform the three elements into a written or illustrated story.
+        </div>
+    </div>
+
+    <div class="feature">
+        <div class="icon">🎨</div>
+        <div>
+            <strong>Draw Your Story</strong>
+            Or build your narrative freely, without constraints.
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>The power of chance</h2>
+    <p>
+        The cards are not chosen — they are received.  
+        Every draw transforms limitation into imagination.
+    </p>
+</section>
+
+<section>
+    <h2>Made for young creators</h2>
+    <p>
+        Designed for children, but equally powerful in classrooms and storytelling workshops.
+    </p>
+</section>
+
+<div class="cta">
+    <h2>Start your ritual</h2>
+    <p>Every story begins with a shake.</p>
+    <a class="button" href="#">Download Free</a>
+</div>
 
 </body>
 </html>
