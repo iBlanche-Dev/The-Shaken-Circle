@@ -9,43 +9,65 @@
 body{
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     margin:0;
+    padding:0;
     background:#faf7f2;
     color:#1c1c1e;
 }
 
 header{
-    padding:80px 20px;
+    padding:90px 20px;
     text-align:center;
     background:linear-gradient(135deg,#7a0f1e,#3b0b12);
     color:white;
 }
 
 header h1{
-    font-size:38px;
+    font-size:40px;
+    margin-bottom:8px;
 }
 
 header p{
     font-size:16px;
-    color:#ffffff;   /* richiesto: bianco */
+    color:white; /* richiesto */
     opacity:1;
+}
+
+.badge{
+    display:inline-block;
+    margin-top:14px;
+    padding:6px 14px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.15);
+    font-size:13px;
+}
+
+section{
+    max-width:900px;
+    margin:50px auto;
+    padding:0 20px;
 }
 
 .card{
     background:white;
     border-radius:14px;
     padding:22px;
-    margin:15px auto;
-    max-width:900px;
+    margin:15px 0;
     box-shadow:0 6px 18px rgba(0,0,0,0.08);
 }
 
 h2{
     font-size:20px;
+    margin-bottom:8px;
 }
 
 p, li{
     font-size:15px;
     line-height:1.7;
+    color:#2c2c2e;
+}
+
+ul{
+    padding-left:20px;
 }
 
 footer{
@@ -62,37 +84,81 @@ footer{
 <header>
     <h1>Privacy Policy</h1>
     <p>The Shaken Circle</p>
+    <div class="badge">Swift Student Challenge 2026 Winner</div>
 </header>
+
+<section>
 
 <div class="card">
 
 <h2>Overview</h2>
 <p>
 The Shaken Circle is a creative storytelling app for children aged 6–8.
+Every experience begins with a shake that generates story elements.
 </p>
+
 <p>
-It was created by Bianca De Vivo.
+Created by Bianca De Vivo.
 </p>
-<p>
-The project has been recognized as a Swift Student Challenge 2026 winner.
-</p>
+
+</div>
+
+<div class="card">
 
 <h2>Data Collection</h2>
 <p>
-The app does not collect, store, or share any personal data.
+The app does not collect, store, process, or share any personal data.
 </p>
 
 <ul>
-<li>No accounts or registration</li>
+<li>No account or registration required</li>
 <li>No analytics or tracking</li>
 <li>No location data</li>
 <li>No advertising</li>
+<li>No data transmitted to external servers</li>
 </ul>
 
-<h2>Contact</h2>
-<p>b.devivo00@gmail.com</p>
+</div>
+
+<div class="card">
+
+<h2>User Content</h2>
+<p>
+Stories and drawings remain stored locally on the device.
+The developer has no access to any user-generated content.
+</p>
 
 </div>
+
+<div class="card">
+
+<h2>Children’s Privacy</h2>
+<p>
+The app is designed for children aged 6–8 and does not knowingly collect any personal information from users.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Third-Party Services</h2>
+<p>
+The app does not use third-party analytics, advertising, or tracking tools.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Contact</h2>
+<p>
+For questions, feedback, or support:<br>
+<strong>b.devivo00@gmail.com</strong>
+</p>
+
+</div>
+
+</section>
 
 <footer>
 © 2026 The Shaken Circle
